@@ -1,0 +1,5 @@
+venv/
+token.json
+credentials.json
+__pycache__/
+exported_logs/
