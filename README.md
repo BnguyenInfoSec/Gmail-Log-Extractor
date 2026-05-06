@@ -151,3 +151,19 @@ Skipped existing TXT log: 2026-05-09
 ## Author
 
 Built as part of a workflow automation project focused on improving operational efficiency and reducing manual data handling.
+
+## Security Alignment (NIST SP 800-53)
+
+This project supports standardized audit logging and record retention practices aligned with NIST SP 800-53 controls:
+
+* **AU-2: Event Logging**
+  Ensures relevant system events (e.g., login failures) are captured and preserved in a structured format.
+
+* **AU-6: Audit Record Review, Analysis, and Reporting**
+  Enables consistent review and analysis by transforming email-based alerts into organized, searchable log files.
+
+* **AU-9: Protection of Audit Information**
+  Supports integrity and availability of audit data by storing logs in a centralized and controlled Google Drive location.
+
+By automating log extraction and organization, this tool reduces the risk of missed events and improves audit readiness.
+
